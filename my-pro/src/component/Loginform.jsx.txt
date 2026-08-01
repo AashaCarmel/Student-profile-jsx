@@ -1,0 +1,12 @@
+import React from 'react'
+
+function Loginform() {
+  return (
+    <div className="login">
+    <label htmlFor="email">Email</label>  
+    <input id="email"type="email"/>
+    </div>
+  )
+}
+
+export default Loginform
